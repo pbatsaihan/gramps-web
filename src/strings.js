@@ -32,6 +32,7 @@ export const frontendLanguages = [
   'lt',
   'lv',
   'mk',
+  'mn',
   'nb',
   'nl',
   'nn',
