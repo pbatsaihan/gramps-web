@@ -120,6 +120,10 @@ export class GrampsjsViewSettingsUser extends GrampsjsView {
     if ('data' in dataTrans) {
       this.error = false
       this._translations = dataTrans.data
+      this._translations.push({
+        language: 'mn',
+        native: 'Монгол',
+      })
     } else if ('error' in dataTrans) {
       this.error = true
       this._errorMessage = dataTrans.error
